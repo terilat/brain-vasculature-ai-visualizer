@@ -86,11 +86,11 @@ export const Technology = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Количество снимков</span>
-                    <span className="font-semibold">10,000+</span>
+                    <span className="font-semibold">200+</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Экспертная разметка</span>
-                    <span className="font-semibold">Врачи-радиологи</span>
+                    <span className="font-semibold">Врачи-нейрофизиологи</span>
                   </div>
                 </div>
               </CardContent>

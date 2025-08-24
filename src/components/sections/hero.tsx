@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import heroImage from "/lovable-uploads/5b88cb4d-473f-45c0-8c32-85b713dbdbed.png";
+import heroImage from "@/assets/brain-mri-hero.png";
 export const Hero = () => {
   return <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-hero">
       <div className="container px-4 py-16 mx-auto">

@@ -1,8 +1,9 @@
 import { Header } from "@/components/ui/header";
 import { Card, CardContent } from "@/components/ui/card";
-import vesselImage1 from "@/assets/vessel-segmentation-1.jpg";
-import vesselImage2 from "@/assets/vessel-segmentation-2.jpg";
-import vesselImage3 from "@/assets/vessel-segmentation-3.jpg";
+import { Contacts } from "@/components/sections/contacts";
+import vesselImage1 from "@/assets/vessel-segmentation-1.png";
+import vesselImage2 from "@/assets/vessel-segmentation-2.png";
+import vesselImage3 from "@/assets/vessel-segmentation-3.png";
 
 const galleryItems = [
   {
@@ -14,14 +15,14 @@ const galleryItems = [
   {
     id: 2,
     image: vesselImage2,
-    title: "Сегментация сосудов - случай 2", 
-    description: "Выделение венозной системы головного мозга с высокой точностью"
+    title: "3D визуализация сосудистой сети", 
+    description: "Трехмерная реконструкция сосудистого дерева на основе МРТ данных"
   },
   {
     id: 3,
     image: vesselImage3,
-    title: "3D визуализация сосудистой сети",
-    description: "Трехмерная реконструкция сосудистого дерева на основе МРТ данных"
+    title: "Сегментация сосудов - случай 2",
+    description: "Автоматическая разметка артериальных сосудов на сагиттальном срезе МРТ"
   }
 ];
 
@@ -78,21 +79,22 @@ const Gallery = () => {
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">95.2%</div>
+                <div className="text-3xl font-bold text-accent mb-2">&gt;90%</div>
                 <div className="text-sm text-muted-foreground">Точность сегментации</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">3-5с</div>
+                <div className="text-3xl font-bold text-accent mb-2">&lt;2с</div>
                 <div className="text-sm text-muted-foreground">Время обработки</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">512×512</div>
-                <div className="text-sm text-muted-foreground">Разрешение входа</div>
+                <div className="text-l font-bold text-accent mb-2">Неконтрастная 3D TOF-MRA (intracranial), 1.5-3T, NIfTI</div>
+                <div className="text-sm text-muted-foreground">Протокол сканирования</div>
               </div>
             </div>
           </div>
         </div>
       </main>
+      <Contacts />
     </div>
   );
 };
