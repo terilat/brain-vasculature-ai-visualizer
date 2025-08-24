@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/brain-vasculature-ai-visualizer/', // если публикуешь в подкаталоге
   plugins: [
     react(),
     mode === 'development' &&
