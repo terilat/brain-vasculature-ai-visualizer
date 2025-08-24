@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/brain-mri-hero.jpg";
+import heroImage from "/lovable-uploads/5b88cb4d-473f-45c0-8c32-85b713dbdbed.png";
 export const Hero = () => {
   return <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-hero">
       <div className="container px-4 py-16 mx-auto">
@@ -42,8 +42,8 @@ export const Hero = () => {
 
           <div className="relative animate-fade-in">
             <div className="relative overflow-hidden rounded-2xl shadow-card">
-              <img src={heroImage} alt="МРТ снимок головного мозга с выделенными сосудами" className="w-full h-auto object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent mx-0 my-0 px-[40px] py-[40px]"></div>
+              <img src={heroImage} alt="МРТ снимок головного мозга с выделенными сосудами" className="w-full h-auto object-cover object-center" style={{backgroundColor: 'black'}} />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
             </div>
           </div>
         </div>
