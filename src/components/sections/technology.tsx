@@ -67,10 +67,10 @@ export const Technology = () => {
                     <span className="text-sm text-muted-foreground">Время обработки</span>
                     <span className="font-semibold">&lt;2 сек</span>
                   </div>
-                  <div className="flex justify-between items-center">
+                  {/* <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Разрешение</span>
                     <span className="font-semibold">512×512</span>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
