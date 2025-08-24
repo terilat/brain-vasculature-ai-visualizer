@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/brain-mri-hero.jpg";
-
 export const Hero = () => {
-  return (
-    <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-hero">
+  return <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-hero">
       <div className="container px-4 py-16 mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-slide-up">
@@ -20,15 +18,8 @@ export const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-lg px-8 py-4 shadow-medical">
-                Узнать больше
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="text-lg px-8 py-4"
-                asChild
-              >
+              
+              <Button variant="outline" size="lg" className="text-lg px-8 py-4" asChild>
                 <Link to="/gallery">Посмотреть результаты</Link>
               </Button>
             </div>
@@ -51,16 +42,11 @@ export const Hero = () => {
 
           <div className="relative animate-fade-in">
             <div className="relative overflow-hidden rounded-2xl shadow-card">
-              <img 
-                src={heroImage} 
-                alt="МРТ снимок головного мозга с выделенными сосудами"
-                className="w-full h-auto object-cover"
-              />
+              <img src={heroImage} alt="МРТ снимок головного мозга с выделенными сосудами" className="w-full h-auto object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
