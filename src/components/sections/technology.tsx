@@ -61,7 +61,7 @@ export const Technology = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Точность</span>
-                    <span className="font-semibold">95.2%</span>
+                    <span className="font-semibold">&gt;90%</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Время обработки</span>
