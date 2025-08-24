@@ -54,7 +54,7 @@ export const Technology = () => {
               <CardHeader>
                 <CardTitle className="text-accent">Архитектура модели</CardTitle>
                 <CardDescription>
-                  U-Net с attention механизмами для медицинской сегментации
+                  Hessian-based метод медицинской сегментации
                 </CardDescription>
               </CardHeader>
               <CardContent>
