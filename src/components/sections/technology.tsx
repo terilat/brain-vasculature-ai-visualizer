@@ -65,7 +65,7 @@ export const Technology = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Время обработки</span>
-                    <span className="font-semibold">3-5 сек</span>
+                    <span className="font-semibold">&lt;2 сек</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Разрешение</span>
